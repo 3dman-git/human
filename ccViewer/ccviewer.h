@@ -28,10 +28,11 @@ public:
 	//! Default destructor
 	~ccViewer();
 
-	//! Adds entity to display db
+    //! Adds entity to display db 将实体添加到显示数据库
+    //!
 	void addToDB(ccHObject* entity);
 
-	//! Checks for loaded entities
+    //! 检查加载项
 	/** If none, a message is displayed to invite the user
 		to drag & drop files.
 	**/
