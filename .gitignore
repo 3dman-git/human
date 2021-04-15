@@ -1,6 +1,6 @@
 #################
 ## Eclipse
-
+*.autosave
 *.pydevproject
 .project
 .metadata
