@@ -187,7 +187,7 @@ MainWindow::MainWindow()
 {
 	m_UI->setupUi( this );
 
-    setWindowTitle(QStringLiteral("CloudCompare v") + ccApp->versionLongStr(false));
+    setWindowTitle(QStringLiteral("---senlion3Dhuman--- v") + ccApp->versionLongStr(false));
 	
 	m_pluginUIManager = new ccPluginUIManager( this, this );
 	
