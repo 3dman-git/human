@@ -45,7 +45,7 @@ ccViewer::ccViewer(QWidget *parent, Qt::WindowFlags flags)
 	setStyleSheet("QStatusBar{background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,stop:0 rgb(200,200,200), stop:1 rgb(255,255,255));}");
 #endif
 	
-	setWindowTitle(QString("ccViewer v%1").arg(ccApp->versionLongStr( false )));
+    setWindowTitle(QString("senlion3DHuman v%1").arg(ccApp->versionLongStr( false )));
 
 	//insert GL window in a vertical layout
 	{
