@@ -376,6 +376,8 @@ void ccViewer::selectEntity(ccHObject* toSelect)
 	m_glWindow->redraw();
 }
 
+// listen to the event of load data by drag.
+
 bool ccViewer::checkForLoadedEntities()
 {
 	bool loadedEntities = true;
