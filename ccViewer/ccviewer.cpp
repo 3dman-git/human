@@ -1,5 +1,6 @@
 #include "ccviewer.h"
 #include "ccViewerApplication.h"
+#include <ui_ccviewerAbout.h>
 
 //Qt
 #include <QMessageBox>
@@ -1014,7 +1015,7 @@ void ccViewer::zoomOnSelectedEntity()
 	m_glWindow->redraw();
 }
 
-#include <ui_ccviewerAbout.h>
+
 
 void ccViewer::doActionAbout()
 {
