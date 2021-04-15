@@ -9,7 +9,7 @@
 
 
 ccViewerApplication::ccViewerApplication( int &argc, char **argv, bool isCommandLine )
-	: ccApplicationBase( argc, argv, isCommandLine, QStringLiteral( "1.39" ) )
+    : ccApplicationBase( argc, argv, isCommandLine, QStringLiteral( "1.0" ) )
 {
 	setApplicationName( "CloudCompareViewer" );
 }
